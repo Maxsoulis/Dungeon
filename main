@@ -1,9 +1,9 @@
 #include <iostream>
-#include "Player.cpp"
-#include "Item.cpp"
-#include "Dungeon.cpp"
-#include "GameCharacter.cpp"
-#include "Room.cpp"
+#include "Player.h"
+#include "Item.h"
+#include "Dungeon.h"
+#include "GameCharacter.h"
+#include "Room.h"
 int main(){
 Player player("Genie", 100, 50, 50);
 Item dagger("dagger",0,5,0);
